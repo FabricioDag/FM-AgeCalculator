@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  /* border: 5px solid rgb(19, 202, 19); */
+
+  /* padding: 1rem 2rem; */
+  max-width: 700px;
+}
+
+form {
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* border: 5px solid black; */
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid rgb(0, 255, 200); */
+  gap: 0.3rem;
+}
+
+.inputBox label {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  color: hsl(0, 1%, 44%);
+}
+
+input[type='number'] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.btn {
+  background-color: hsl(259, 100%, 65%);
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn img {
+  width: 50%;
+}
+
+.results {
+  /* border: 5px solid green; */
+}
+
+.dateWrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.dateWrapper p {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dateWrapper p.hl {
+  color: hsl(259, 100%, 65%);
+}
